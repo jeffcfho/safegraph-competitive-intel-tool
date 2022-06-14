@@ -1,0 +1,3 @@
+# requirements.txt
+s3fs
+plotly-express
