@@ -16,7 +16,7 @@ fs = s3fs.S3FileSystem(anon=False)
 def read_file(filename):
     return pd.read_csv(filename)
 
-df = read_file("s3://safegraph-places-outgoing/demos/spend_cross_shopping_w_online.csv.gz")
+df = read_file("s3://safegraph-places-outgoing/streamlit-demos/spend_cross_shopping_w_online.csv.gz")
 df.sort_values('raw_num_customers',ascending=False,inplace=True)
 df.set_index('placekey',inplace=True)
 
