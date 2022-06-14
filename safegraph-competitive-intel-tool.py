@@ -43,6 +43,7 @@ st.sidebar.markdown(
 Created using the following columns from
 SafeGraph Spend (see [Docs](https://docs.safegraph.com/docs/spend#cross-shopping-columns)):
 - `related_cross_shopping_` `physical_brands_pct` 
+- `related_cross_shopping_` `online_merchants_pct` 
 - `related_cross_shopping_` `same_category_brands_pct` 
 
 *App reads in from s3.*
