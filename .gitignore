@@ -1,3 +1,4 @@
 # pyenv
 .python-version
 .streamlit/secrets.toml
+.DS_Store
